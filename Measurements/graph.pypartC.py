@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # Data
 measurements = [1, 2, 3, 4]
-densities = [10.0, 10.0, 10.0, 10.0]
+densities = [10., 10., 10., 10.]
 average = sum(densities) / len(densities)
 true_density = 7.15
 
