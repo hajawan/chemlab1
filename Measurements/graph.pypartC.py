@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # Data
 measurements = [1, 2, 3, 4]
-densities = [9.8, 9.3, 9.8, 10.1]
+densities = [10.0, 10.0, 10.0, 10.0]
 average = sum(densities) / len(densities)
 true_density = 7.15
 
@@ -24,7 +24,7 @@ ax.set_title("Density of a Penny", fontsize=13, pad=15)
 ax.set_xlabel("Measurement", fontsize=12)
 ax.set_ylabel("Density (g/cm$^3$)", fontsize=12)
 ax.set_xticks(measurements)
-ax.set_ylim(0, 14)  # raised so the legend has room above the bars
+ax.set_ylim(0, 13)
 ax.grid(axis='y', linestyle=':', alpha=0.5, zorder=0)
 
 # Legend (key) in top right — only the two reference lines
